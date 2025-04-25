@@ -1,4 +1,4 @@
-The data was too big too push how I was using it so I compressed it to a zip and pushed it intead. You can check with the paths used throughout the code but to make it work just create a DATA folder inside the workspace (not in any other folder) and put all the data in that.
+The data was too big too push how I was using it so I compressed it to a zip and pushed that intead. You can check with the paths used throughout the code but to make it work just create a DATA folder inside the workspace (not in any other folder) and put all the data in that.
 
 # Data Information
 The four datasets being used are:
@@ -14,7 +14,7 @@ The four datasets being used are:
 - All work pertaining to augmenting data and using the model for the damage report is in `CODE/DamageModel`
 - The files for assigning risk scores to individual structures are in `CODE/RiskScore`
 - The data is all in the `DATA` folder
-- A lot of files need to be made in order to run the code from start to finish, but they are too big to push to GitHib. So, I have setup the general layour of folders for them to be saved properly just by running the files. Obviously you can always just manage that however you want as well.
+- A lot of files need to be made in order to run the code from start to finish, but they are too big to push to GitHib. So, I have setup the general layout of folders for them to be saved properly just by running the files. However, empty folders dont get pushed so I put placeholder .txt files in each so that you dont have to make them yourselves. Obviously you can always just manage that however you want as well.
 
 
 # Workflow
