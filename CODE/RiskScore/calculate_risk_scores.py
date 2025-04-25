@@ -44,8 +44,6 @@ for _, row in data.iterrows():
         score += -0.12
     if row.get("fence_attached_to_structure") == "No Fence":
         score += 0.20
-    if row.get("fence_attached_to_structure") == "No Fence":
-        score += 0.20
     score += row.get("age", 0) * -0.08
 
     raw_scores.append(score)
