@@ -53,7 +53,7 @@ create 3 seperate files, one for each risk zone and calculate the distance of ev
 
 ## Calculating Risk Scores For Individual Structures
 
-Now that we have looked at large_scale total damages, we can look at the risk_scores for individual stuctures.
+Now that we have looked at large-scale total damages, we can look at the risk_scores for individual stuctures.
 
 ### Step 1: Join Zones and Structures
 - Run the `risk_zone_join.py` file which will attach a new feature containing the risk zone each structure resides in.
