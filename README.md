@@ -1,3 +1,5 @@
+The data was too big too push how I was using it so I compressed it to a zip and pushed it intead. You can check with the paths used throughout the code but to make it work just create a DATA folder inside the workspace (not in any other folder) and put all the data in that.
+
 # Data Information
 The four datasets being used are:
 - `FIREDATA/POSTFIRE.SHP`: Contains the structues assessed by CALFIRE after fires have occured
