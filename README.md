@@ -14,7 +14,7 @@ The four datasets being used are:
 - All work pertaining to augmenting data and using the model for the damage report is in `CODE/DamageModel`
 - The files for assigning risk scores to individual structures are in `CODE/RiskScore`
 - The data is all in the `DATA` folder
-- A lot of files need to be made in order to run the code from start to finish, but they are too big to push to GitHib. So, I have setup the general layout of folders for them to be saved properly just by running the files. However, empty folders dont get pushed so I put placeholder .txt files in each so that you dont have to make them yourselves. Obviously you can always just manage that however you want as well.
+- A lot of files need to be made in order to run the code from start to finish, but they are too big to push to GitHib. So, I have setup the general layout of folders (CreatedData) for them to be saved properly just by running the files. However, empty folders dont get pushed so I put placeholder .txt files in each so that you dont have to make them yourselves. Obviously you can always just manage that however you want as well.
 
 
 # Workflow
