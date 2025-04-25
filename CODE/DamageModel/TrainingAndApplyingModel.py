@@ -181,7 +181,7 @@ for zone_name, path in risk_zones.items():
     zone_df.loc[(zone_df['dist_to_fire_km'] > 1) & (zone_df['dist_to_fire_km'] < 5) &(zone_df['in_perimeter'] == 0), 'distance_category'] = 'Medium'
     zone_df.loc[(zone_df['dist_to_fire_km'] >= 5) & (zone_df['in_perimeter'] == 0), 'distance_category'] = 'Far'
 
-    zone_df['dist_to_fire_km_squared'] = df['dist_to_fire_km'] ** 2
+    zone_df['dist_to_fire_km_squared'] = zone_df['dist_to_fire_km'] ** 2
 
 
     # trainng data has "unknown" for missing categorical values so we have to do the same here
